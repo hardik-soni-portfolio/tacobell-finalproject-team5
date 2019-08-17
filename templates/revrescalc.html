@@ -1,0 +1,27 @@
+{% extends "index.html"%}
+{% block content %}
+<div id='container' >
+	<div class="single_user">
+		{{ recommended_offer }}
+	</div>
+	<div class="multiple_users">
+		<table style="border: 1px solid black">
+			<thead>
+				<tr>
+					<th class="mdl-data-table__cell--non-numeric">Offer</th>
+					<th>IRR                            NRR</th>
+				</tr>
+			</thead>
+			<tbody>
+				{%for index, row in model_op_df.iterrows()%}
+				<tr>
+					<td>{{row['Offer']}}</td>
+					<td>{{row['IRR_and_NRR']}}</td>
+				</tr>
+				{%endfor%}
+			</tbody>
+		</table>
+	</div>
+</div>
+
+{% endblock %}

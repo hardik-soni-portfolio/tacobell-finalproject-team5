@@ -1,0 +1,12 @@
+{% extends "index.html"%}
+{% block content %}
+<div id='content-div'>
+	<form action="data" method="POST">
+		<input id='text-input' name='user_id' class="mdl-textfield__input" type="text" id="sample4" min="0" max="40"
+			placeholder="User ID">
+		<br>
+		<button id='btn-submit'
+			class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">RECOMMEND</button>
+	</form>
+</div>
+{% endblock %}

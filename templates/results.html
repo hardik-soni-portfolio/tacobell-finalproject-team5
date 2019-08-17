@@ -1,0 +1,27 @@
+{% extends "recommendation.html"%}
+{% block content %}
+<div id='container' >
+	<div class="single_user">
+		{{ recommended_offer }}
+	</div>
+	<div class="multiple_users">
+		<table style="border: 1px solid black">
+			<thead>
+				<tr>
+					<th class="mdl-data-table__cell--non-numeric">USER</th>
+					<th>OFFER RECOMMENDATION</th>
+				</tr>
+			</thead>
+			<tbody>
+				{%for index, row in recommend_xusers.iterrows()%}
+				<tr>
+					<td>{{row['user_id']}}</td>
+					<td>{{row['recommended_offer']}}</td>
+				</tr>
+				{%endfor%}
+			</tbody>
+		</table>
+	</div>
+</div>
+
+{% endblock %}
