@@ -1,0 +1,101 @@
+,user_id,recommended_offer
+0,7042,"['bogo4', 'discount2', 'bogo1']"
+1,10621,"['discount3', 'bogo4', 'bogo2']"
+2,10578,"['bogo1', 'bogo4', 'bogo2']"
+3,6357,"['bogo3', 'discount2', 'bogo4']"
+4,7411,do not offer anything
+5,6310,"['discount3', 'bogo4', 'bogo2']"
+6,839,"['bogo4', 'discount2', 'bogo1']"
+7,7673,"['discount3', 'bogo4', 'bogo1']"
+8,2211,"['discount3', 'discount2', 'bogo2']"
+9,12204,"['discount3', 'discount2', 'bogo2']"
+10,9546,"['bogo2', 'bogo4', 'bogo1']"
+11,16101,do not offer anything
+12,1335,"['discount2', 'bogo2', 'discount3']"
+13,9704,"['discount4', 'bogo1', 'bogo4']"
+14,5143,"['discount2', 'discount3', 'bogo2']"
+15,986,"['discount3', 'bogo4', 'bogo2']"
+16,13035,"['discount1', 'bogo2', 'discount3']"
+17,8629,"['bogo3', 'discount3', 'discount2']"
+18,638,"['discount2', 'discount3', 'bogo2']"
+19,5752,"['discount2', 'bogo1', 'bogo2']"
+20,3826,"['discount3', 'bogo4', 'bogo2']"
+21,3178,"['bogo2', 'discount4', 'bogo4']"
+22,12063,"['bogo4', 'discount3', 'bogo1']"
+23,7422,do not offer anything
+24,10657,"['discount3', 'discount2', 'bogo2']"
+25,15947,"['bogo4', 'bogo1', 'discount3']"
+26,16547,"['discount2', 'discount3', 'bogo2']"
+27,10081,"['discount2', 'bogo2', 'bogo1']"
+28,14749,"['bogo1', 'discount3', 'bogo4']"
+29,12848,"['discount3', 'discount2', 'bogo2']"
+30,6876,"['discount1', 'bogo2', 'discount3']"
+31,15128,"['bogo2', 'discount2', 'discount3']"
+32,1871,"['bogo1', 'bogo4', 'bogo3']"
+33,16481,"['bogo2', 'bogo4', 'bogo1']"
+34,8323,"['bogo2', 'bogo1', 'discount2']"
+35,2811,"['discount3', 'discount2', 'discount1']"
+36,10504,"['discount2', 'discount3', 'bogo2']"
+37,15521,do not offer anything
+38,7523,"['discount4', 'bogo1', 'bogo4']"
+39,617,"['bogo2', 'bogo1', 'discount2']"
+40,4035,"['discount3', 'bogo1', 'bogo2']"
+41,16637,"['discount4', 'bogo1', 'bogo4']"
+42,119,do not offer anything
+43,4726,"['bogo3', 'discount2', 'bogo4']"
+44,12268,do not offer anything
+45,11930,do not offer anything
+46,7225,"['bogo1', 'discount2', 'bogo4']"
+47,9674,do not offer anything
+48,4755,do not offer anything
+49,5638,"['bogo1', 'bogo4', 'bogo3']"
+50,11177,do not offer anything
+51,12311,"['discount3', 'discount2', 'bogo2']"
+52,5780,"['discount3', 'bogo2', 'bogo1']"
+53,8532,"['bogo2', 'bogo1', 'discount2']"
+54,5465,do not offer anything
+55,11032,"['bogo1', 'bogo4', 'bogo3']"
+56,1083,"['discount3', 'bogo3', 'discount4']"
+57,13852,"['bogo2', 'bogo1', 'discount2']"
+58,6315,do not offer anything
+59,16645,"['discount3', 'bogo1', 'discount1']"
+60,3917,"['bogo2', 'bogo1', 'discount2']"
+61,9184,do not offer anything
+62,15602,do not offer anything
+63,4714,"['discount3', 'discount2', 'bogo2']"
+64,2058,"['discount3', 'discount1', 'discount2']"
+65,4217,do not offer anything
+66,13006,"['discount2', 'bogo1', 'bogo2']"
+67,10557,"['bogo1', 'bogo2', 'bogo4']"
+68,917,"['bogo3', 'discount2', 'bogo4']"
+69,5890,"['discount4', 'discount3', 'bogo1']"
+70,4903,do not offer anything
+71,14760,"['discount2', 'bogo2', 'discount3']"
+72,6139,"['bogo1', 'bogo2', 'bogo3']"
+73,11933,"['discount1', 'bogo1', 'discount3']"
+74,1886,"['bogo1', 'bogo3', 'bogo4']"
+75,13853,"['discount1', 'bogo2', 'discount3']"
+76,16491,do not offer anything
+77,4782,"['discount2', 'bogo1', 'bogo2']"
+78,13412,"['bogo3', 'discount2', 'bogo4']"
+79,6526,"['bogo1', 'discount3', 'bogo4']"
+80,10792,do not offer anything
+81,3381,"['bogo1', 'bogo4', 'bogo3']"
+82,10717,do not offer anything
+83,11090,"['bogo2', 'discount2', 'bogo1']"
+84,3855,"['bogo3', 'discount2', 'bogo4']"
+85,1543,do not offer anything
+86,9354,do not offer anything
+87,13169,"['discount3', 'discount2', 'bogo2']"
+88,3616,do not offer anything
+89,13776,do not offer anything
+90,15636,"['discount1', 'bogo2', 'discount3']"
+91,10345,"['discount2', 'discount3', 'bogo2']"
+92,15379,"['bogo3', 'discount2', 'discount1']"
+93,6638,"['bogo1', 'discount3', 'bogo4']"
+94,3067,do not offer anything
+95,16434,"['discount4', 'bogo1', 'bogo4']"
+96,12121,"['discount2', 'bogo2', 'discount3']"
+97,6983,"['bogo3', 'discount3', 'bogo4']"
+98,10540,"['discount2', 'discount3', 'bogo2']"
+99,4554,"['discount2', 'discount3', 'bogo2']"

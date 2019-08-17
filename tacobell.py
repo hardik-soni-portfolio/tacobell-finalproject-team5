@@ -35,12 +35,9 @@ def user_user_recs(user_id, recom_user, offer_or_not, n_user = 10, top_n = 4):
     the offer id of recommendation (list)
     '''
     recommendation = []
-    #print(recom_user)
     if user_id in offer_or_not['user_id'].tolist():
         return 'do not offer anything'
     else:
-        #usr_temp = user_id - 1
-        #print(usr_temp in recom_user.index)
         if user_id in recom_user.index:
             #find top 10 similar users 
             sim_users = []
@@ -68,13 +65,14 @@ def find_similar_users(user_id):
     similar_users - (list) an ordered list where the closest users (largest dot product users)
                     are listed first   
     '''
-    recom_user = pd.read_csv('static/recom_user.csv', engine='c')
+    recom_user = pd.read_csv('static/recom_user.csv', engine='c', index_col=0)
     # compute similarity of each user to the provided user
     user_row = recom_user.loc[user_id]
+    #print(recom_user.shape)
     similarities = np.dot(user_row.T, recom_user.T)
+    #print(similarities.shape)
     # create list of just the ids
     most_similar_users = list(((-similarities).argsort()) + 1)
-    print(most_similar_users)
     # remove the own user's id                             
     most_similar_users.remove(user_id)
     return most_similar_users # return a list of the users in order from most to least similar

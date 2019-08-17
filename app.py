@@ -65,7 +65,7 @@ def show_rrcalc():
         promos = tacobell.promotion_strategy(df,i)
         score_df = test_data.iloc[np.where(promos == 'Yes')]    
         irr, nir = tacobell.score(score_df)
-        list1 = [irr, nir]
+        list1 = [round(irr,2), round(nir,2)]
         if i == discount1:
             key = "discount1"
         elif i == bogo2:

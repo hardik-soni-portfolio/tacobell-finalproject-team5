@@ -1,14 +1,18 @@
 {% extends "recommendation.html"%}
 {% block content %}
-<div id='container' >
+<br>
+<br>
+<div id='container'>
+	<h4 style="text-align: center">User entered customer ID</h4>
 	<div class="single_user">
 		{{ recommended_offer }}
 	</div>
+	<h4 style="text-align: center">100-Customer Test</h4>
 	<div class="multiple_users">
-		<table style="border: 1px solid black">
+		<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
 			<thead>
 				<tr>
-					<th class="mdl-data-table__cell--non-numeric">USER</th>
+					<th>USER</th>
 					<th>OFFER RECOMMENDATION</th>
 				</tr>
 			</thead>
